@@ -1,0 +1,86 @@
+.topHeader{
+  width: 100%;
+  position: relative;
+}
+.topHeader::after{
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #D2D2D2;
+}
+.topHeader .space {
+  width: 70%;
+  height: 100%;
+}
+
+
+
+.topHeader ul {
+  list-style: none;
+  width: 30%;
+  /* display: flex; */
+}
+
+.topHeader ul a{
+  text-decoration: none;
+  color: #4A4B4D;
+}
+/* ===== */
+.bottomHeader{
+  width: 100%;
+}
+
+.mediumLinks{
+  width: 60%;
+}
+
+.mediumLinks a{
+  color: #222222;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.mediumLinks a span{
+  font-style: italic;
+}
+
+
+.leftIconLinks{
+  width: 15%;
+}
+.leftIconLinks i.fa-regular, .leftIconLinks svg{
+  font-size: 20px;
+  color: #222222;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+
+
+@media (max-width:1260px) {
+  .topHeader .space {
+    width: 20%;
+  }
+}
+
+@media (max-width:520px) {
+  .topHeader {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding: 0xp 0px !important;
+    margin: 0;
+  }
+
+  .topHeader .space {
+    width: 0% !important;
+    display: none;
+  }
+
+  .topHeader ul {
+    width: 100% !important;
+    padding: 0;
+  }
+}

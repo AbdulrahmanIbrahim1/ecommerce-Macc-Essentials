@@ -1,0 +1,14 @@
+.newProductTitle{
+  width: 100%;
+  text-align: center;
+}
+.newProductTitle .spaceTitle{
+  width: 100%;
+  height: 20px;
+}
+.newProductTitle h2{
+  color: #004197;
+}
+.newProductTitle h2 span{
+  color: #E2342D;
+}

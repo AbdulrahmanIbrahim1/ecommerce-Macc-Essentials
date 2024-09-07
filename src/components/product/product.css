@@ -1,0 +1,44 @@
+.smallImage{
+  width: 65%;
+  background-color: #F3F3F3;
+  padding: 10px;
+}
+.bigImage{
+  width: 100%;
+  background-color: #F3F3F3;
+}
+.colors button{
+border: 1px solid !important;
+text-transform: uppercase;
+}
+.btn-blue{
+  background-color: #004197 !important;
+  color: #FFFFFF !important;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 100%;
+}
+.btn-blue +p{
+  color: #222222;
+}
+
+.addedToCart{
+  text-align: center;
+  color: white;
+  background-color: #29b3ac;
+  padding: 5px;
+}
+.addedToCart a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.fa-circle-xmark{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  color:white;
+  cursor: pointer;
+}

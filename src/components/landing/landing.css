@@ -1,0 +1,45 @@
+.land {
+  background-color: #F8F8F8;
+  /* position: relative; */
+}
+
+.leftLand{
+  position: relative;
+}
+
+.bigText {
+  /* PROVIDING SERVICES AT YOUR DOOR */
+
+  /* position: absolute; */
+  left: 5.86%;
+  right: 51.83%;
+  top: 7.4%;
+  bottom: 88.8%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 81px;
+
+  color: #3A408C;
+}
+.bigText + p {
+  color:#707070;
+}
+
+.textLeft{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;
+}
+button.btn-danger{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.rightLand .image{
+  width: 90%;
+}
+

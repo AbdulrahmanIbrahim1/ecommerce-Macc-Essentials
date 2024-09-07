@@ -1,0 +1,40 @@
+ul {
+  list-style: none;
+}
+
+.emailInput {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  width: 90%;
+}
+
+.emailInput::placeholder {
+  text-transform: uppercase;
+}
+
+.input-box {
+  position: relative;
+}
+
+.input-box i {
+  position: absolute;
+  right: 10%;
+  bottom: 10px;
+  font-size: 23px;
+}
+.socialIcons{
+
+  text-align: center;
+}
+.socialIcons i{
+  color: white;
+  background-color: #004197;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  /* align-items: center; */
+  font-size: 20px;
+  border-radius: 50%;
+}

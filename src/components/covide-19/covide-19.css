@@ -1,0 +1,14 @@
+.covide h2 span{
+  color: #E2342D;
+}
+.covide h2{
+  color: #231F20;
+  font-weight: bold;
+  text-align: center;
+}
+.covide p{
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  color: #222222;
+}

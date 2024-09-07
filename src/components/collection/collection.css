@@ -1,0 +1,30 @@
+.form-select-left{
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid #231F20 !important;
+  border-radius: 0  !important;
+}
+.form-select-left:focus{
+  box-shadow: none !important;
+}
+.fourBoxs p{
+  color: #4A4B4D;
+  background-color: #F3F3F3;
+  padding: 10px 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.fourBoxs p.clicked{
+  background-color:#004197 ;
+  color: #FFFFFF;
+}
+.form-select-sort{
+  width: 15% !important;
+}
+.form-select-sort:focus{
+  box-shadow: none !important;
+}
+.pages123 .next {
+background-color: #231F20 !important;
+color: #FFFFFF !important;
+}

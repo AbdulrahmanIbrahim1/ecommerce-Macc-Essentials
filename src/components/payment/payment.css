@@ -1,0 +1,32 @@
+.form-check .form-check-input {
+  float: left !important;
+  padding: 0;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.form-check {
+  margin: 0 !important;
+  border: 1px solid #C4C4C4;
+  padding: 10px;
+  padding-left: 35px !important;
+}
+
+.form-check label {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.modal-header button.btn-close {
+  top: 15px;
+  position: absolute;
+  right: 14px;
+  background-color: #4D4D4E;
+  border-radius: 50%;
+  color: white !important;
+}
+.bg-blue{
+  background-color: #004197 !important;
+  color: #FFFFFF !important;
+  padding: 5px 20px !important;
+}
